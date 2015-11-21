@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{8f0f2387-9f27-41dd-9152-6246dea49b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DTO">
+      <UniqueIdentifier>{bee2099c-7342-4d3d-946e-5d2e266d13a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{80500fe5-24fe-4768-943a-d21f04a1c3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{c0f02b9c-15d8-42a1-a9e6-c8f779fc0393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDAL.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserRepo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="UserRepoTest.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServerSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDAL.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="IUserRepo.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRepoTest.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServerSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
